@@ -46,15 +46,15 @@ blockquote,q{quotes:none}
 .comment-body::after,.gallery::after,.main-navigation .menu::after,.nav-links::after,.search-form::after,blockquote:after,blockquote:before,q:after,q:before{content:""}
 table{border-collapse:collapse;border-spacing:0}
 body,button,input,select,textarea{font-weight:300;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:1em;line-height:1.77689em;margin-top:1em;margin-bottom:1em;color:#595959}
+>blockquote p:last-child,body{margin-bottom:0}
 .site-logo,b,dt,strong{font-weight:600}
-body{background-color:#fff}
+body{margin-top:0;background-color:#fff}
 h1,h2,h3,h4,h5,h6{font-weight:600;clear:both}
 a:hover{text-decoration:underline;color:#276aa2}
 #mobile-menu-switch .toggle:hover,.entry-title a:hover,ins,mark{text-decoration:none}
 a:active{top:1px}
 cite,dfn,em,i{font-style:italic}
 blockquote{line-height:1.77689em;padding-left:1.333em;border-left:1px solid #e6e6e6}
->blockquote p:last-child{margin-bottom:0}
 hr,pre{margin-bottom:1.6em}
 code,kbd,pre,samp,tt,var{font-family:Monaco,Consolas,"Lucida Console",monospace;font-size:12px;line-height:1.77689em;-webkit-hyphens:none;-moz-hyphens:none;hyphens:none;-ms-hyphens:none}
 code{margin-right:.31672em;margin-left:.31672em;padding:.2376em .42219em}
