@@ -89,7 +89,7 @@ figure.wp-caption,img.size-full,img.size-large,img.wp-post-image{max-width:100%;
 .site-logo,.site-logo:first-child{margin-top:0}
 .wp-caption.aligncenter,.wp-caption.alignleft,.wp-caption.alignnone,.wp-caption.alignright{margin-bottom:.42219em}
 .attachment-post-thumbnail{display:block;margin-bottom:1.77689em}
-input,input[type=search],textarea{border-radius:0;-webkit-appearance:none}
+input[type=color],input[type=date],input[type=datetime-local],input[type=datetime],input[type=email],input[type=month],input[type=number],input[type=password],input[type=search],input[type=tel],input[type=text],input[type=time],input[type=url],input[type=week],textarea{border-radius:0;-webkit-appearance:none}
 .container,.content-container,.footer-container,.header-container{max-width:68em;margin-left:auto;margin-right:auto;padding-right:2.0225em;padding-left:2.0225em}
 .container::after,.content-container::after,.footer-container::after,.header-container::after{clear:both;content:"";display:table}
 .site-header{height:120px;padding-top:1.875rem;padding-bottom:1.875rem}
@@ -189,8 +189,8 @@ input,input[type=search],textarea{border-radius:0;-webkit-appearance:none}
 .search-form label:last-child{width:59.71639%}
 .search-form label input[type=search]{box-sizing:border-box;width:100%}
 .content-area label{font-weight:600;font-size:1em;line-height:1em;margin-top:1em;display:block;margin-bottom:.5em}
-input[type=email],input[type=password],input[type=search],input[type=text],input[type=url],textarea{margin-top:.31672em;margin-bottom:1em;padding:6px 8px;border:1px solid #e6e6e6}
-input[type=email],input[type=password],input[type=text],input[type=url],textarea{width:100%}
+input[type=color],input[type=date],input[type=datetime-local],input[type=datetime],input[type=email],input[type=month],input[type=number],input[type=password],input[type=search],input[type=tel],input[type=text],input[type=time],input[type=url],input[type=week],textarea{margin-top:.31672em;margin-bottom:1em;padding:6px 8px;border:1px solid #e6e6e6;width:100%}
+input[type=search]{width:auto}
 input[type=submit]{padding:6px 15px;color:#f9f9f9;border:1px solid #3185CB;border-radius:1px;background-color:#3185CB}
 input[type=submit]:hover{background-color:#276aa2}
 input[type=submit]:active{position:relative;top:1px;right:0;bottom:0;left:0}
