@@ -11,7 +11,7 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 hr,input[type=search]{box-sizing:content-box}
-.comment-list li.comment,.main-navigation .menu li,.no-bullets li,.social-sharing li{list-style-type:none;list-style-image:none}
+.comment-list li.comment,.gform_fields li,.main-navigation .menu li,.no-bullets li,.social-sharing li{list-style-type:none;list-style-image:none}
 pre,textarea{overflow:auto}
 code,pre{background-color:#fdfdfd}
 embed,iframe,img,object,pre,video{max-width:100%}
@@ -167,7 +167,6 @@ input[type=color],input[type=date],input[type=datetime-local],input[type=datetim
 .social-sharing li{padding-left:0;margin-left:0;font-size:14px;font-size:.875rem;line-height:1.333em;float:left;margin-right:1em}
 .error404 .content-area:last-child,.social-sharing li:last-child{margin-right:0}
 .comment-body{margin-bottom:1.875rem;padding-bottom:1.875rem;padding-left:65px}
-.comment-list,.comment-list li.comment{margin-left:0;padding-left:0}
 .comment-body .comment-content p,.comment-body .comment-meta{margin-bottom:.31672em}
 .comment-body::after{clear:both;display:table}
 .comment-body .comment-meta .comment-author{position:relative;top:0;right:0;bottom:0;left:0;display:inline}
@@ -176,7 +175,8 @@ input[type=color],input[type=date],input[type=datetime-local],input[type=datetim
 .comment-body .comment-meta .says{display:none}
 .comment-body .reply{font-size:14px;font-size:.875rem;line-height:1.333em;padding-top:.31672em}
 .comment-form-comment{margin-bottom:0}
-.comment-list{margin-bottom:1.875rem;padding-bottom:.9375rem;list-style:none}
+.comment-list{margin-left:0;padding-left:0;margin-bottom:1.875rem;padding-bottom:.9375rem;list-style:none}
+.comment-list li.comment{padding-left:0;margin-left:0}
 .form-allowed-tags{font-size:14px;font-size:.875rem;line-height:1.333em;margin-bottom:1em}
 .comment-reply-title,.comments-title{font-weight:400;font-size:1.77689em;line-height:1.333em;margin-top:1em;margin-bottom:.75019em}
 .comment-reply-title small,.comments-title small{font-size:14px;font-size:.875rem;line-height:1.333em;font-weight:300;float:right;margin-top:10px;text-transform:capitalize}
@@ -204,7 +204,14 @@ input[type=submit]:hover{background-color:#276aa2}
 input[type=submit]:active{position:relative;top:1px;right:0;bottom:0;left:0}
 .post-password-form label{margin-top:1.77689em}
 .post-password-form input[type=password]{margin-top:.75019em}
-.post-password-form input[type=submit]{margin-top:0}
+.gform_button.button,.post-password-form input[type=submit]{margin-top:0}
+.gform_fields{list-style:none;margin-left:0;padding-left:0}
+.gform_fields li{padding-left:0;margin-left:0}
+.gfield_description{font-size:14px;font-size:.875rem;line-height:1.333em;margin-bottom:1em}
+.gform_validation_container.gfield{display:none}
+.validation_error{margin-bottom:1.875rem;color:#B2432C}
+.gfield_error input[type=color],.gfield_error input[type=date],.gfield_error input[type=datetime-local],.gfield_error input[type=datetime],.gfield_error input[type=email],.gfield_error input[type=month],.gfield_error input[type=number],.gfield_error input[type=password],.gfield_error input[type=search],.gfield_error input[type=tel],.gfield_error input[type=text],.gfield_error input[type=time],.gfield_error input[type=url],.gfield_error input[type=week],.gfield_error textarea{border-color:#B2432C}
+.gfield_error .gfield_description{color:#B2432C}
 .error404 .content-area{float:left;display:block;width:100%;margin-right:0;padding-right:0}
 .error404 .page-title{font-weight:400;font-size:3.15733em;line-height:1em;margin-top:.56278em;margin-bottom:.56278em}
 .error404 .page-title:first-child{margin-top:0}
