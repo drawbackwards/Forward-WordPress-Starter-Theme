@@ -6,7 +6,7 @@ A super clean WordPress starter theme based on [underscores](https://github.com/
 
 ## Download
 
-💾 [Forward-WordPress-Starter-Theme-1.0.0.zip](https://github.com/drawbackwards/Forward-WordPress-Starter-Theme/releases/download/v1.0.0/Forward-WordPress-Starter-Theme-1.0.0.zip).
+💾 [Forward-WordPress-Starter-Theme-1.0.1.zip](https://github.com/drawbackwards/Forward-WordPress-Starter-Theme/releases/download/1.0.1/Forward-WordPress-Starter-Theme-1.0.1.zip).
 
 ## Automatic Updates
 
